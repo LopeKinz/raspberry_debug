@@ -28,8 +28,8 @@ def check_wifi_bluetooth():
 def get_session_time():
     return psutil.users()[0].session
 
-root = tk.Tk()
-root.title('System Info')
+window = tk.Tk()
+window.title("System Information")
 
 cpu_label = tk.Label(master=window, text=f'CPU Usage: {get_cpu_usage()}%')
 disk_label = tk.Label(master=window, text=f'Disk Space: {get_disk_space()}')
