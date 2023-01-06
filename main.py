@@ -1,5 +1,4 @@
 import tkinter as tk
-import subprocess
 import platform
 import psutil
 def get_system_info():
