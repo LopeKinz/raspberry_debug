@@ -1,4 +1,4 @@
-# rapsberry_debug_boot
+# raspberry_debug
 Zum debuggen vom Raspberry pi4 
 Als Startsript
 
